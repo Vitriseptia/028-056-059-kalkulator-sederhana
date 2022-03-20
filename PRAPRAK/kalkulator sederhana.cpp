@@ -55,3 +55,33 @@ int main()
 			cetakgaris(30);
 			break;
 		}
+		{
+			int c=0 , d=0;
+			cout<<" Bilang Pertama: "; cin>>c;
+			cout<<" Bilangan Kedua: "; cin>>d;
+			cout<<" Hasil "<<c<<" - "<<d<<" = "<<kurang(c,d);
+			cetakgaris(30);
+			break;
+		}
+		case 3:
+		{
+			int c=0 , d=0;
+			cout<<" Bilang Pertama: "; cin>>c;
+			cout<<" Bilangan Kedua: "; cin>>d;
+			cout<<" Hasil "<<c<<" x "<<d<<" = "<<kali(c,d);
+			cetakgaris(30);
+			break;
+		}
+		case 4:
+		{
+			int c=0 , d=0;
+			cout<<" Bilang Pertama: "; cin>>c;
+			cout<<" Bilangan Kedua: "; cin>>d;
+			cout<<" Hasil "<<c<<" : "<<d<<" = "<<bagi(c,d);
+			cetakgaris(30);
+			break;
+		}
+		default:
+ 		cout<<" Kode yang anda masukkan tidak ada";
+ 	}
+}
