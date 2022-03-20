@@ -31,3 +31,27 @@ void cetakgaris(int n)
 	for(i=0; i<=n; i++)
 	cout<<"-";cout<<"\n";
 }
+int main()
+{
+	int menu;
+	cout<<"---------------------------------"<<endl;
+	cout<<"| PROGRAM KALKULATOR 		|"<<endl;
+	cout<<"| Menu Operasi :		|"<<endl;
+	cout<<"|	1. Penambahan		|"<<endl;
+	cout<<"|	2. Pengurangan		|"<<endl;
+	cout<<"|	3. Perkalian		|"<<endl;
+	cout<<"|	4. Pembagian		|"<<endl;
+	cout<<"---------------------------------"<<endl;
+	cout<<"Pilih Menu No: ";
+	cin>>menu;
+	switch(menu)
+	{
+		case 1:
+		{
+			int c=0 , d=0;
+			cout<<" Bilang Pertama: "; cin>>c;
+			cout<<" Bilangan Kedua: "; cin>>d;
+			cout<<" Hasil "<<c<<" + "<<d<<" = "<<tambah(c,d);
+			cetakgaris(30);
+			break;
+		}
